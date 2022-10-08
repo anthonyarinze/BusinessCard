@@ -5,9 +5,104 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(26, 27, 33);
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-color: rgb(26, 27, 33);
+  height: 800px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+img {
+  padding-top: 10px;
+  height: 240px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 5px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px;
+  color: rgb(138, 111, 95);
+}
+
+h3 {
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+p {
+  padding-left: 15px;
+  padding-top: 40px;
+  margin: 5px;
+  color: white;
+  text-align: left;
+  font-size: 22px;
+}
+
+.about {
+  color: white;
+  word-wrap: break-word;
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.fa {
+  margin: 20px;
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+  color: black;
+  background-color: rgb(145, 142, 155);
+}
+
+.fa-envelope {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 9px 55px 9px 35px;
+  margin: 10px;
+  font-size: 20px;
+  width: 50px;
+}
+
+.fa-envelope::before {
+  margin-right: 10px;
+}
+
+.fa-linkedin::before {
+  margin-right: 10px;
+}
+
+.fa-linkedin {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(80, 147, 226);
+  border-radius: 5px;
+  padding: 9px 70px 9px 25px;
+  margin: 10px;
+  font-size: 20px;
+  width: 50px;
+}
+
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(22, 22, 25);
 }
